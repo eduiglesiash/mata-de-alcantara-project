@@ -1,0 +1,41 @@
+---
+import CardBanner from './CardBanner.astro'
+
+const { text } = Astro.props
+---
+
+<section class='relative'>
+  <h1
+    class='montse font-black absolute min-w-max top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl z-20'>
+    {text}
+  </h1>
+  <div class='flex items-center overflow-x-auto scroll-snap-x-mandatory h-[800px]'>
+    <div
+      data-index='0'
+      class='relative flex-none w-screen h-full snap-align-start lg:flex-1'>
+      <CardBanner
+        urlImage='/biomata/ciervo-bw.webp'
+        altImage='Ciervo comiendo'
+        textLink='Fauna y flora'
+      />
+    </div>
+    <div
+      data-index='1'
+      class='relative flex-none w-screen h-full snap-align-start lg:flex-1'>
+      <CardBanner
+        urlImage='/biomata/cielo-estrellado.webp'
+        altImage='Cielo nocturno'
+        textLink='Cielo estrellado'
+      />
+    </div>
+    <div
+      data-index='2'
+      class='relative flex-none w-screen h-full snap-align-start lg:flex-1'>
+      <CardBanner
+        urlImage='/biomata/bohio-laguna.webp'
+        altImage='Bohio de la Laguna al atardecer'
+        textLink='Lugares increíbles'
+      />
+    </div>
+  </div>
+</section>
