@@ -1,0 +1,18 @@
+---
+const { urlVideo } = Astro.props
+---
+
+<section class='relative'>
+  <div
+    class='w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-white text-center flex flex-col gap-2 md:gap-4 lg:gap-6'>
+    <h2 class='montse font-bold text-xl md:text-3xl lg:text-5xl'>Reserva de la biosfera Tajo-Internacional</h2>
+    <h3 class='merry italic text-lg md:text-2xl lg:text-4xl'>Descúbrela</h3>
+  </div>
+  <video
+    class='w-full'
+    src={urlVideo || 'videos/sample-1280x720.mp4'}
+    loop
+    autoplay
+    muted>
+  </video>
+</section>
