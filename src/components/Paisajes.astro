@@ -2,5 +2,134 @@
   <h2 class='merry font-bold lg:max-w-[1400px] lg:m-auto p-2 text-xl md:text-3xl lg:text-6xl text-green-800'>
     Paisajes únicos
   </h2>
-  CarruselBanner nuevo
+  <div class='embla mt-6'>
+    <ul class='embla__container'>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-2.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-3.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-4.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-5.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-6.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-7.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-8.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-9.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-10.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-11.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-13.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-14.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-15.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+      <li class='embla__slide'>
+        <img
+          src='carousel/paisajes-unicos-12.webp'
+          alt=''
+          loading='lazy'
+        />
+      </li>
+    </ul>
+  </div>
 </section>
+
+<style>
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+    gap: 1rem;
+    height: 350px;
+  }
+  .embla__slide {
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+  .embla__slide img {
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
+<script>
+  import EmblaCarousel from 'embla-carousel'
+
+  const emblaNode = document.querySelector('.embla')
+  const options = { loop: false }
+  const emblaApi = EmblaCarousel(emblaNode, options)
+</script>

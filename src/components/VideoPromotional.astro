@@ -1,5 +1,5 @@
 ---
-const { urlVideo } = Astro.props
+const { urlVideo, poster } = Astro.props
 ---
 
 <section class='relative'>
@@ -11,6 +11,7 @@ const { urlVideo } = Astro.props
   <video
     class='w-full'
     src={urlVideo || 'videos/sample-1280x720.mp4'}
+    poster={poster || 'images/charca-cueto.webp'}
     loop
     autoplay
     muted>

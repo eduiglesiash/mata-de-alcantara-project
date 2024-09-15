@@ -23,6 +23,9 @@ importers:
       astro:
         specifier: ^4.11.0
         version: 4.11.0
+      embla-carousel:
+        specifier: ^8.3.0
+        version: 8.3.0
       tailwindcss:
         specifier: ^3.4.4
         version: 3.4.4
@@ -837,6 +840,9 @@ packages:
 
   electron-to-chromium@1.4.810:
     resolution: {integrity: sha512-Kaxhu4T7SJGpRQx99tq216gCq2nMxJo+uuT6uzz9l8TVN2stL7M06MIIXAtr9jsrLs2Glflgf2vMQRepxawOdQ==}
+
+  embla-carousel@8.3.0:
+    resolution: {integrity: sha512-Ve8dhI4w28qBqR8J+aMtv7rLK89r1ZA5HocwFz6uMB/i5EiC7bGI7y+AM80yAVUJw3qqaZYK7clmZMUR8kM3UA==}
 
   emoji-regex@10.3.0:
     resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
@@ -2719,6 +2725,8 @@ snapshots:
   eastasianwidth@0.2.0: {}
 
   electron-to-chromium@1.4.810: {}
+
+  embla-carousel@8.3.0: {}
 
   emoji-regex@10.3.0: {}
 
