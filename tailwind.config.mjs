@@ -13,7 +13,7 @@ export default {
 				"walnut-brown": "#736455",
 				"khaki": "#B2A392",
 				"cal-poly-green": "#135226",
-				"bole": "793930"
+				"bole": "#793930"
 			}
 
 		},
