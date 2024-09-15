@@ -1,0 +1,35 @@
+---
+import ArrowTopRight from './icons/ArrowTopRight.astro'
+---
+
+<footer class='py-10 bg-field-drab'>
+  <div class='lg:max-w-[1400px] lg:m-auto px-2 text-white'>
+    <h2 class='text-center hidden md:block md:text-[48px]'>Mata de Alcántara, Cáceres</h2>
+    <h2 class='text-center text-3xl md:hidden mb-4'>Mata de Alcántara, <br /> Cáceres</h2>
+    <ul class='flex flex-col md:flex-row md:gap-8 items-center justify-center'>
+      <li>
+        <a
+          href='https://maps.app.goo.gl/ep8d5a4Ps8vcTATY7'
+          target='_blank'
+          rel='noopener noreferrer'
+          class='py-2 flex items-center gap-2'
+          >Cómo llegar <ArrowTopRight customClass='size-4' />
+        </a>
+        <li>
+          <a
+            href='https://biblioteca.matadealcantara.com/'
+            target='_blank'
+            class='py-4 flex items-center gap-2'
+            >El rincón del sabiduría<ArrowTopRight customClass='size-4' />
+          </a>
+        </li>
+      </li>
+    </ul>
+    <a
+      href='https://www.welly.es'
+      target='_blank'
+      class='merry font-lg py-4 flex items-center gap-2 justify-center'
+      >A proud product of <strong><span class='text-black'>Welly</span><span class='text-[#f48113]'>Code</span></strong>
+    </a>
+  </div>
+</footer>
